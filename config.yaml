@@ -1,0 +1,21 @@
+theme: "hyde"
+baseURL: http://suspicious-keller-862ed0.netlify.app/
+languageCode: en-us
+title: Graduate Fieldwork
+menu:
+  main: 
+    - name: About
+      url: /about/
+      weight: 10
+    - name: Resources
+      url: /Resources/
+      weight: 20
+    - name: Contact
+      url: /contact/
+      weight: 30
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+      
